@@ -76,7 +76,7 @@ void draw() {
     line(startX, startY, endX, endY);
     startX=endX;
     startY=endY;
-    if (endX>=500&&b==0) {
+    if (endX>=500&&b<=5) {
       int sX=endX;
       int sY=endY;
       int eX=endX;
@@ -88,6 +88,7 @@ void draw() {
         sX=eX;
         sY=eY;
       }
+      b++;
     }
   }
     noStroke();
