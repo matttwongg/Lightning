@@ -105,7 +105,7 @@ void draw() {
     rect(115, 780, 70, 10);
     rect(115, 820, 70, 10);
     yes=false;
-    delay(50);
+    //delay(50);
   }
   int x=100;
   void mousePressed() {
